@@ -1,8 +1,19 @@
 {
-    "name": "Mpf",
-    "version": "1.0.0",
-    "dist": {
-        "url": "https://github.com/madran/mpf",
-        "type": "vcs"
+    "name": "madran/mpf",
+    "description": "my personal framework",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "lukasz",
+            "email": "lukasz.rozanski@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mpf\\": ""
+        }
     }
 }

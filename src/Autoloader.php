@@ -17,7 +17,7 @@ class Autoloader
       throw new Exception('Appliction path root is not provided.');
     }
 
-    $this->_autoloadDirectories[] = 'vendor';
+    //$this->_autoloadDirectories[] = 'vendor';
     $this->_autoloadDirectories[] = 'application/controller';
     $this->_autoloadDirectories[] = 'application/model';
     if (isset($config['Autoloader']['path'])) {
