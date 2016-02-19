@@ -1,0 +1,8 @@
+{
+    "name": "Mpf",
+    "version": "1.0.0",
+    "dist": {
+        "url": "https://github.com/madran/mpf",
+        "type": "vcs"
+    }
+}
